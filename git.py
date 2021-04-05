@@ -1,5 +1,15 @@
-from isOdd import isOdd
-
 # Определение четности числа
-print(not isOdd(4))
+
+x = 10
+y = x >> 1
+if x == y << 1:
+    print("четное")
+else:
+    print("нечетное")
+
+x = 10
+if x & 1 == 0:
+    print("четное")
+else:
+    print("нечетное")
 
